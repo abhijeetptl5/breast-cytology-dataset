@@ -1,0 +1,20 @@
+name: breast-fnac-cyto
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pyyaml
+  - pillow
+  - tqdm
+  - scikit-learn
+  - matplotlib
+  - opencv
+  - openslide
+  - pip
+  - pip:
+      - openslide-python
+      - torch
+      - torchvision

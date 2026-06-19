@@ -1,0 +1,87 @@
+# Default configuration for the breast FNAC cytology dataset helper scripts.
+# Override these paths from the command line when running on your local dataset copy.
+
+dataset_root: /path/to/breast-cytology-main
+metadata_dir: /path/to/breast-cytology-main/metadata
+manifest_path: /path/to/breast-cytology-main/manifest/zenodo_files_manifest.csv
+geojson_dir: /path/to/breast-cytology-main/geojson
+patches_dir: /path/to/breast-cytology-main/patches
+outputs_dir: ./outputs
+
+expected:
+  n_patients: 321
+  n_wsis: 470
+  n_patches: 7393
+  n_zenodo_wsi_records: 21
+  wsi_extension: .ndpi
+  stain_counts:
+    PAP: 190
+    MGG: 280
+  diagnosis_counts:
+    Non Cancerous:
+      patients: 209
+      wsis: 304
+    Cancerous:
+      patients: 112
+      wsis: 166
+  class_counts:
+    C1:
+      patients: 4
+      wsis: 9
+      patches: 33
+    C2:
+      patients: 194
+      wsis: 281
+      patches: 3706
+    C3:
+      patients: 11
+      wsis: 14
+      patches: 478
+    C4:
+      patients: 11
+      wsis: 15
+      patches: 398
+    C5:
+      patients: 101
+      wsis: 151
+      patches: 2778
+  wsi_record_counts:
+    - 26
+    - 19
+    - 25
+    - 22
+    - 18
+    - 17
+    - 28
+    - 26
+    - 36
+    - 24
+    - 26
+    - 21
+    - 18
+    - 20
+    - 18
+    - 18
+    - 28
+    - 20
+    - 26
+    - 28
+    - 6
+
+class_folder_map:
+  I: C1
+  II: C2
+  III: C3
+  IV: C4
+  V: C5
+
+required_metadata_files:
+  - master_metadata.csv
+  - patient_metadata.csv
+  - slide_metadata.csv
+  - site_metadata.csv
+  - class_summary.csv
+  - dataset_summary.csv
+  - metadata_validation_summary.csv
+  - data_dictionary.csv
+  - README_metadata_release.md
