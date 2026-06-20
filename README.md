@@ -10,8 +10,7 @@ The repository is intended to help users validate the released metadata, inspect
 Main Zenodo record:
 
 - **Title:** A Multi-Center Breast FNAC Cytology Dataset for AI-Assisted Patch-wise Classification Using C1--C5 Reporting Categories
-- **DOI:** https://doi.org/10.5281/zenodo.20734842
-- **Zenodo record:** https://zenodo.org/records/20734842
+- **DOI:** https://doi.org/10.5281/zenodo.20763900
 
 The main Zenodo record contains extracted patch images, WSI-level GeoJSON annotation files, metadata files, a data dictionary, and a manifest linking WSI files to the corresponding Zenodo WSI records. The full set of 470 NDPI WSIs is distributed across 21 linked Zenodo records listed in the main Zenodo record and in `manifest/zenodo_files_manifest.csv`.
 
@@ -265,6 +264,6 @@ If you use this dataset or code, please cite the Zenodo dataset and the associat
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20734842},
-  url       = {https://doi.org/10.5281/zenodo.20734842}
+  url       = {https://doi.org/10.5281/zenodo.20763900}
 }
 ```
