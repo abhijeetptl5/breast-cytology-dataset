@@ -263,7 +263,7 @@ If you use this dataset or code, please cite the Zenodo dataset and the associat
   title     = {{A Multi-Center Breast FNAC Cytology Dataset for AI-Assisted Patch-wise Classification Using C1--C5 Reporting Categories}},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20734842},
+  doi       = {10.5281/zenodo.20763900},
   url       = {https://doi.org/10.5281/zenodo.20763900}
 }
 ```
